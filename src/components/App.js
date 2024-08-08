@@ -20,7 +20,7 @@ function App() {
     const { name, email, gender, phone, password } = formValue;
 
     if (!name || !email || !phone || !password) {
-      return 'All fields are mandatory.';
+      return 'All fields are mandatory';
     }
 
     if (!/^[a-zA-Z0-9\s]+$/.test(name)) {
@@ -32,15 +32,15 @@ function App() {
     }
 
     if (!['male', 'female', 'other'].includes(gender)) {
-      return ' Please identify as male, female or others.';
+      return ' Please identify as male, female or others';
     }
 
     if (!/^\d+$/.test(phone)) {
-      return 'Phone Number must contain only numbers.';
+      return 'Phone Number must contain only numbers';
     }
 
     if (password.length < 6) {
-      return 'Password must contain at least 6 letters.';
+      return 'Password must contain at least 6 letters';
     }
 
     return '';
