@@ -32,7 +32,7 @@ function App() {
     }
 
     if (!['male', 'female', 'other'].includes(gender)) {
-      return 'Please identify as male, female or others';
+      return 'Please identify as male, female or others.';
     }
 
     if (!/^\d+$/.test(phone)) {
