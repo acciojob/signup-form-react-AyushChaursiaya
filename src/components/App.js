@@ -75,7 +75,7 @@ function App() {
 
         <div>
           <label>Gender</label>
-          <select value={formValue.gender} onChange={handleChange} name='gender'>
+          <select value={formValue.gender} onChange={handleChange} name='gender' data-testid='gender' >
             <option value='male'>Male</option>
             <option value='female'>Female</option>
             <option value='other'>Other</option>
