@@ -55,7 +55,7 @@ function App() {
       setSucess('');
     } else {
       const username = formValue.email.split('@')[0];
-      setSucess(`Hello ${username}`);
+      setSucess(`<h2>Hello ${username}</h2>`);
       setError('');
     }
   }
