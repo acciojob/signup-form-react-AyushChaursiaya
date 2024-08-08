@@ -94,8 +94,8 @@ function App() {
 
         <button type='submit' data-testid='submit'>Submit button</button>
       </form>
-      {error && <p>{error}</p>}
-      {sucess && <p>{sucess}</p>}
+      {error && <span>{error}</span>}
+      {sucess && <span>{sucess}</span>}
     </div>
   )
 }
